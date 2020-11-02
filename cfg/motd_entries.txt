@@ -1,13 +1,13 @@
 "motd_entries"
 {
-	"last_request_time"		"2020-10-01 19:56:34"
+	"last_request_time"		"2020-11-01 20:52:45"
 	"last_request_language"		"english"
 	"97"
 	{
-		"post_time"		"2020-10-02 02:55:00"
+		"post_time"		"2020-10-02 00:55:00"
 		"title_english"		"Scream Fortress XII"
 		"text_english"		"Complete a new round of Merasmissions! Make offerings to your Soul Gargoyle! Play four new community created Halloween maps along with your favorites! Check out the new community cosmetic items and Unusual effects! Scream Fortress XII runs through November 7, 2020."
-		"url"		"http://www.teamfortress.com/post.php?id=75863"
+		"url"		"http://www.teamfortress.com/post.php?id=76112"
 		"image"		"illustrations/gamemode_halloween2015"
 		"header_type"		"2"
 		"header_english"		"Happy Halloween"
