@@ -1,16 +1,16 @@
 "motd_entries"
 {
-	"last_request_time"		"2020-11-01 20:52:45"
+	"last_request_time"		"2021-01-03 19:45:31"
 	"last_request_language"		"english"
-	"97"
+	"98"
 	{
-		"post_time"		"2020-10-02 00:55:00"
-		"title_english"		"Scream Fortress XII"
-		"text_english"		"Complete a new round of Merasmissions! Make offerings to your Soul Gargoyle! Play four new community created Halloween maps along with your favorites! Check out the new community cosmetic items and Unusual effects! Scream Fortress XII runs through November 7, 2020."
-		"url"		"http://www.teamfortress.com/post.php?id=76112"
-		"image"		"illustrations/gamemode_halloween2015"
-		"header_type"		"2"
-		"header_english"		"Happy Halloween"
+		"post_time"		"2020-12-04 00:50:00"
+		"title_english"		"Merry Smissmas"
+		"text_english"		"Smissmas brings Stocking Stuffers for everyone, featured community maps, new community cosmetics, and new community War Paints! Festivizers can be found as a random bonus when opening the Winter 2020 Cosmetic Case! Smissmas runs through January 7, 2021."
+		"url"		"http://www.teamfortress.com/post.php?id=78083"
+		"image"		"../backpack/crafting/winter2013_stocking_stuffer_large"
+		"header_type"		"0"
+		"header_english"		"News"
 		"header_icon"		"class_icons/filter_all_motd"
 	}
 }
