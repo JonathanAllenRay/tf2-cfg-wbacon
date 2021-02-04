@@ -1,16 +1,15 @@
 "motd_entries"
 {
-	"last_request_time"		"2021-01-06 01:51:18"
+	"last_request_time"		"2021-02-03 23:54:45"
 	"last_request_language"		"english"
-	"98"
+	"99"
 	{
-		"post_time"		"2020-12-04 00:50:00"
-		"title_english"		"Merry Smissmas"
-		"text_english"		"Smissmas brings Stocking Stuffers for everyone, featured community maps, new community cosmetics, and new community War Paints! Festivizers can be found as a random bonus when opening the Winter 2020 Cosmetic Case! Smissmas runs through January 7, 2021."
-		"url"		"http://www.teamfortress.com/post.php?id=78083"
-		"image"		"../backpack/crafting/winter2013_stocking_stuffer_large"
+		"post_time"		"2021-01-09 00:55:00"
+		"title_english"		"Checked out the blog?"
+		"text_english"		"If you haven't read the official TF2 blog, it's full of insights into our development process, links to notable community productions, and random stories about our love of hats. Hit the button below to take a look!"
+		"url"		"http://www.teamfortress.com/"
+		"image"		"../logo/new_tf2_logo"
 		"header_type"		"0"
-		"header_english"		"News"
-		"header_icon"		"class_icons/filter_all_motd"
+		"header_english"		"#MMenu_News"
 	}
 }
