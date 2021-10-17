@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sun Aug 16 01:52:34 AM
+// File generated:  Fri Oct  8 00:16:07 AM
 //
 //
 // Cvar	-	Setting
@@ -61,6 +61,14 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_EnableTextChat"
 		{ BOOL }
 		{ "1" }
+	}
+
+	"chat_filter_settings"
+	{
+		"#TF_ChatFilterSettings"
+		"#Tooltip_ChatFilterSettings"
+		{ BUTTON }
+		{ "open_chat_filter_settings" }
 	}
 
 	"category2"
@@ -426,7 +434,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Vignette_Static" "1"
 			"#TF_Pyrovision_Vignette_Dynamic" "2"
 		}
-		{ "2" }
+		{ "0" }
 	}
 
 	"pyro_vignette_distortion"
@@ -448,7 +456,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_romevision_opt_in"
@@ -485,7 +493,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Contract_Progress_All" "1"
 			"#TF_Contract_Progress_Active" "2"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_contract_competitive_show"
@@ -664,13 +672,21 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_use_min_viewmodels_option"
 		"#Tooltip_use_min_viewmodels_option"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
-	"cl_playerspraydisable"
+	"cl_spraydisable"
 	{
 		"#GameUI_DisableSprays"
 		"#Tooltip_DisableSprays"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"tf_delete_temp_files"
+	{
+		"#TF_delete_temp_files"
+		"#Tooltip_delete_temp_files"
 		{ BOOL }
 		{ "1" }
 	}
