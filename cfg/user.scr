@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Fri Nov  5 20:12:19 AM
+// File generated:  Mon Apr 17 20:42:40 AM
 //
 //
 // Cvar	-	Setting
@@ -434,7 +434,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Vignette_Static" "1"
 			"#TF_Pyrovision_Vignette_Dynamic" "2"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"pyro_vignette_distortion"
@@ -456,7 +456,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_romevision_opt_in"
@@ -464,7 +464,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_RomeVisionOptIn"
 		"#Tooltip_RomeVisionOptIn"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_hud_target_id_disable_floating_health"
@@ -703,7 +703,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_steamscreenshots"
@@ -719,7 +719,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_ShowNotificationsInGame"
 		"#Tooltip_ShowNotificationsInGame"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_trading_show_requests_from"
@@ -732,7 +732,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_ShowTradeRequestsFrom_Anyone" "3"
 			"#TF_ShowTradeRequestsFrom_NoOne" "4"
 		}
-		{ "3" }
+		{ "1" }
 	}
 
 	"cl_show_market_data_on_items"
@@ -753,7 +753,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_ShowPromotionalCodesButton"
 		"#Tooltip_ShowPromotionalCodesButton"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category8"
