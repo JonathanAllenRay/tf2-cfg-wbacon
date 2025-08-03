@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Apr 17 20:42:40 AM
+// File generated:  Sat Jun 14 21:51:48 AM
 //
 //
 // Cvar	-	Setting
@@ -683,6 +683,14 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"tf_hide_custom_decals"
+	{
+		"#TF_hide_custom_decals"
+		"#Tooltip_hide_custom_decals"
+		{ BOOL }
+		{ "0" }
+	}
+
 	"tf_delete_temp_files"
 	{
 		"#TF_delete_temp_files"
@@ -703,7 +711,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_steamscreenshots"
@@ -773,7 +781,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_DemoSupport_All" "2"
 			"#TF_DemoSupport_Tournament" "3"
 		}
-		{ "1" }
+		{ "2" }
 	}
 
 	"ds_dir"
@@ -789,7 +797,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_DemoSupport_Prefix"
 		"#TF_DemoSupport_Prefix_ToolTip"
 		{ STRING }
-		{ "" }
+		{ "TF2AUTO" }
 	}
 
 	"ds_sound"
