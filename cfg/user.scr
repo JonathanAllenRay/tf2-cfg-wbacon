@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Jun 14 21:51:48 AM
+// File generated:  Tue Sep  2 21:37:30 AM
 //
 //
 // Cvar	-	Setting
@@ -82,7 +82,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_autoreload"
 		"#Tooltip_autoreload"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"hud_fastswitch"
@@ -98,7 +98,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_Hitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_dingaling_volume"
@@ -148,7 +148,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_LastHitbeeps"
 		"#Tooltip_Hitbeeps"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_dingaling_lasthit_volume"
@@ -230,7 +230,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextGreen"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "1" }
+		{ "255" }
 	}
 
 	"hud_combattext_blue"
@@ -434,7 +434,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Vignette_Static" "1"
 			"#TF_Pyrovision_Vignette_Dynamic" "2"
 		}
-		{ "1" }
+		{ "2" }
 	}
 
 	"pyro_vignette_distortion"
@@ -445,7 +445,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"pyro_dof"
@@ -456,7 +456,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_romevision_opt_in"
@@ -513,7 +513,7 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_ScoreBoard_MouseMode"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_scoreboard_ping_as_text"
@@ -618,7 +618,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_DisableHTMLMOTD"
 		"#Tooltip_DisableHTMLMOTD"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_decals"
@@ -626,7 +626,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category7"
@@ -683,14 +683,6 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
-	"tf_hide_custom_decals"
-	{
-		"#TF_hide_custom_decals"
-		"#Tooltip_hide_custom_decals"
-		{ BOOL }
-		{ "0" }
-	}
-
 	"tf_delete_temp_files"
 	{
 		"#TF_delete_temp_files"
@@ -711,7 +703,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_steamscreenshots"
@@ -727,7 +719,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_ShowNotificationsInGame"
 		"#Tooltip_ShowNotificationsInGame"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_trading_show_requests_from"
@@ -854,6 +846,14 @@ DESCRIPTION INFO_OPTIONS
 	{
 		"#TF_DemoSupport_AutoDelete"
 		"#TF_DemoSupport_AutoDelete_ToolTip"
+		{ BOOL }
+		{ "0" }
+	}
+
+	"tf_hide_custom_decals"
+	{
+		"#TF_hide_custom_decals"
+		"#Tooltip_hide_custom_decals"
 		{ BOOL }
 		{ "0" }
 	}
